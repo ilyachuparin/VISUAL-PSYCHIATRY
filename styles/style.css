@@ -1,0 +1,41 @@
+@import url(all.css);
+#main_head{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#logo {
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+}
+#logo_contain {
+    width: 200px;
+    padding: 15px;
+    position: relative;
+    background-image: url(../imgs/logo.png);
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+} 
+#main_head div:nth-child(n) {
+    display: inline-block;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.sotial_links{
+    height: 30px;
+    width: 30px;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+#main_head div:nth-child(3) {
+    width: 35%;
+}
