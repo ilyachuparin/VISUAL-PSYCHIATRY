@@ -39,3 +39,6 @@ h1 {
 #main_head div:nth-child(3) {
     width: 35%;
 }
+#telegram {
+    background-image: url(../imgs/telegram.jpg);
+}
