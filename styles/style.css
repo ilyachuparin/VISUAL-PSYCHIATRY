@@ -1,4 +1,4 @@
-@import url(all.css);
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 #main_head{
@@ -37,6 +37,8 @@ h1 {
     border-radius: 50%;
     padding: 5px;
     margin: 5px;
+    text-align: center;
+    vertical-align: center;
 }
 #main_head div:nth-child(3) {
     width: 35%;
