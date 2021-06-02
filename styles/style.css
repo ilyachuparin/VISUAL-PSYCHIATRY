@@ -66,3 +66,53 @@ h1 {
 }
 #preview p {
 }
+#slider {
+    margin-top: 20px;
+}
+#slider img {
+    width: 100%;
+    border-radius: 20px;
+}
+.central_button_box {
+    text-align: center;
+    margin: 20px 0;
+}
+.button_link {
+    padding: 5px 20px;
+    border: solid black 3px;
+    border-radius: 20px;
+    background: darkmagenta;
+    color: floralwhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button_link:hover {
+    background: red;
+    opacity: 0;
+}
+#test {
+    border: solid black 3px;
+    padding: 20px;
+}
+#test p {
+    width: auto;
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 20px;
+    padding: 20px 150px;
+}
+.options_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.option_key {
+    width: 6em;
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 20px;
+    padding: 20px 150px;
+    margin: 5px;
+}
