@@ -18,12 +18,12 @@
     position: absolute;
 }
 #logo_contain {
-    width: 200px;
+    width: 210px;
     padding: 15px;
     position: relative;
-    background-image: url(../imgs/logo.png);
+    background-image: url(../imgs/logo.jpeg);
     background-size: cover;
-    height: 200px;
+    height: 210px;
     background-position: center;
 } 
 h1 {
